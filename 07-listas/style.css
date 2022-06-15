@@ -1,0 +1,13 @@
+ul {
+ 
+    list-style: square inside url('./images/icon.png');
+    padding-top: 10px;
+    background-color: aqua;
+
+}
+
+ol {
+    list-style: square inside url('./images/icon.png');
+    background-color: aqua;
+    
+}
