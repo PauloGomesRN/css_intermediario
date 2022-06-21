@@ -1,0 +1,54 @@
+body {
+    background-color: #e1e2e1;
+}
+
+.cabecalho {
+    background-color: #69f0ae;
+    padding: 10px 5px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.cabecalho nav {
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+
+    .cabecalho {
+        text-align: center;
+    }
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+ 
+}
